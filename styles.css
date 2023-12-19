@@ -5,13 +5,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .inicio-01 {
-  height: 40rem;
-  background-color: #dcdcdc;
+  height: 31rem;
+  background-color: #c0c0c0;
   padding-top: 1rem;
   padding-left: 1rem;
 }
 .topo_01 {
   display: flex;
+}
+.topo_img img {
+  padding-right: 0.5rem;
+  width: 7rem;
+  height: 2rem;
+  border-right: 2px solid #808080;
 }
 .topo_text {
   font-family: "Roboto", sans-serif;
@@ -20,46 +26,54 @@ body {
   padding-right: 56rem;
   padding-left: 0.5rem;
   margin-top: -0.5rem;
-  width: 20rem;
-  height: 2.5rem;
-}
-.topo_img {
-  padding-right: 0.5rem;
-  border-right: 1.5px solid #808080;
+  width: 18rem;
+  height: 1.5rem;
 }
 .topo_02 {
   display: flex;
-  padding-top: 3rem;
   padding-left: 19rem;
   width: 50vw;
   height: 60vw;
+  padding-top: 3rem;
 }
 .topo_02_img img {
   width: 20vw;
   height: 30vw;
 }
+.topo_02_text {
+  padding-top: 2.5rem;
+}
 .topo_02_text h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Robosto", sans-serif;
   text-transform: uppercase;
   color: #4169e1;
 }
 .topo_02_text h1 {
   font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-weight: bold;
+  font-size: 30px;
+  padding-right: 5rem;
+  letter-spacing: 1px;
 }
 .topo_02_text p {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+  font-size: 12px;
+  padding-right: 6rem;
 }
 .topo_02_text button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 10px;
   color: #ffffff;
   text-decoration: none;
-  border: 2px solid #ff0000;
+  border: 2px solid #b22222;
   border-radius: 17px;
-  background-color: #ff0000;
-  width: 12rem;
-  height: 2.5rem;
+  background-color: #b22222;
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+  letter-spacing: 0.5px;
 }
