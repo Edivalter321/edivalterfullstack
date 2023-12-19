@@ -77,3 +77,31 @@ body {
   margin-top: 1rem;
   letter-spacing: 0.5px;
 }
+.meio_01 {
+  font-family: "Roboto", sans-serif;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+.meio_01 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  margin-top: 3rem;
+}
+.meio_01 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-left: 12rem;
+  margin-right: 10rem;
+  padding-top: 0.5rem;
+}
+.meio_01 h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #4169e1;
+  text-align: center;
+}
