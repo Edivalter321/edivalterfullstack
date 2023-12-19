@@ -1,4 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Newsreader:opsz,wght@6..72,500&family=Raleway&family=Roboto:wght@300;400&display=swap");
 body {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.inicio-01 {
+  height: 40rem;
+  background-color: #dcdcdc;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.topo_01 {
+  display: flex;
+}
+.topo_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  padding-right: 56rem;
+  padding-left: 0.5rem;
+  margin-top: -0.5rem;
+  width: 20rem;
+  height: 2.5rem;
+}
+.topo_img {
+  padding-right: 0.5rem;
+  border-right: 1.5px solid #808080;
+}
+.topo_02 {
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 19rem;
+  width: 50vw;
+  height: 60vw;
+}
+.topo_02_img img {
+  width: 20vw;
+  height: 30vw;
+}
+.topo_02_text h3 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #4169e1;
+}
+.topo_02_text h1 {
+  font-family: "Roboto", sans-serif;
+}
+.topo_02_text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.topo_02_text button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  border-radius: 17px;
+  background-color: #ff0000;
+  width: 12rem;
+  height: 2.5rem;
 }
