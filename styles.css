@@ -114,3 +114,35 @@ body {
   margin-left: 20rem;
   margin-right: 10rem;
 }
+.formulario_01 {
+  border: 2px solid #ffffff;
+  box-shadow: 3px 3px 3px 3px #808080;
+  margin-left: 25rem;
+  margin-top: 2rem;
+  margin-right: 25rem;
+  font-family: "Roboto", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.formulario_01 label {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+.formulario_01 label {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+.formulario_01 select {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  font-weight: bolder;
+  width: 32rem;
+  height: 1.5rem;
+}
+.formulario_01 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
