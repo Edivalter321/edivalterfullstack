@@ -99,9 +99,18 @@ body {
   margin-right: 10rem;
   padding-top: 0.5rem;
 }
-.meio_01 h4 {
+.meio_01 ul {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: 700;
+  font-weight: bolder;
   color: #4169e1;
   text-align: center;
+}
+.meio_01 li {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding-top: 0.5rem;
+  margin-left: 20rem;
+  margin-right: 10rem;
 }
