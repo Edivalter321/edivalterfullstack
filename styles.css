@@ -206,3 +206,47 @@ body {
   align-items: center;
   margin-left: 12rem;
 }
+.body_01 {
+  display: flex;
+  background-color: #0c0909b1;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.body_01 h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.body_01 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 8px;
+  color: #ffffff;
+}
+.body_a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body_b {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body_c {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body_d {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body_e {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.barra_01 {
+  display: flex;
+}
