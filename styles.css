@@ -238,7 +238,7 @@ body {
   background-color: #141827;
   font-family: "Roboto", sans-serif;
   padding-left: 18rem;
-  padding-right: 15rem;
+  padding-right: 13.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -256,23 +256,33 @@ body {
   color: #d8d8d8;
 }
 .body_a {
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 .body_b {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .body_c {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .body_d {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .body_e {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.body_e a img {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.body_e section {
+  margin-top: 5rem;
 }
 .barra_01 {
   display: flex;
