@@ -120,11 +120,13 @@ body {
 .meio_02 {
   margin-top: 3rem;
   padding: 2rem;
-  background: linear-gradient(
-    90deg,
-    rgba(37, 108, 200, 0.561) 3%,
-    rgb(90, 16, 237) 49%,
-    rgb(33, 25, 171) 100%
+  background-image: linear-gradient(
+    to right bottom,
+    #073478,
+    #254c94,
+    #002a97,
+    #0120a4,
+    #260aaf
   );
   height: 10rem;
 }
@@ -208,7 +210,7 @@ body {
 }
 .body_01 {
   display: flex;
-  background-color: #0c0909b1;
+  background-color: #141827;
   font-family: "Roboto", sans-serif;
   padding-left: 16rem;
   padding-top: 2rem;
@@ -249,7 +251,7 @@ body {
 }
 .barra_01 {
   display: flex;
-  background-color: #0c0909b1;
+  background-color: #141827;
 }
 .barra_a {
   font-family: "Roboto", sans-serif;
@@ -281,4 +283,15 @@ body {
   font-size: 8px;
   font-weight: 400;
   color: #ffffff;
+}
+.barra_c a {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 8px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 3px;
+}
+.barra_c_01 {
+  margin-left: 3px;
 }
