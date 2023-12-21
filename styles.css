@@ -53,11 +53,12 @@ body {
 }
 .topo_02_text h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-weight: bold;
   font-size: 30px;
+  font-weight: 900;
+  font-weight: bolder;
   padding-right: 5rem;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 .topo_02_text p {
   font-family: "Roboto", sans-serif;
@@ -245,7 +246,8 @@ body {
 .body_01 h4 {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 500;
+  font-weight: bolder;
   color: #ffffff;
 }
 .body_01 a {
