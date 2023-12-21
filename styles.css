@@ -212,6 +212,9 @@ body {
   width: 0.5rem;
   height: 0.5rem;
 }
+.formulario_01 span {
+  color: #b22222;
+}
 .formulario_01 button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -234,13 +237,14 @@ body {
   display: flex;
   background-color: #141827;
   font-family: "Roboto", sans-serif;
-  padding-left: 16rem;
+  padding-left: 18rem;
+  padding-right: 15rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .body_01 h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   color: #ffffff;
 }
@@ -252,24 +256,23 @@ body {
   color: #d8d8d8;
 }
 .body_a {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 .body_b {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .body_c {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .body_d {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .body_e {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .barra_01 {
   display: flex;
@@ -285,10 +288,8 @@ body {
   font-size: 8px;
   font-weight: 400;
   color: #d8d8d8;
-  margin-left: 17rem;
-  margin-right: 12rem;
-}
-.barra_a img {
+  margin-left: 18rem;
+  margin-right: 8.5rem;
 }
 .barra_b {
   font-family: "Roboto", sans-serif;
@@ -296,7 +297,7 @@ body {
   font-size: 9px;
   font-weight: 600;
   color: #d8d8d8;
-  margin-right: 10rem;
+  margin-right: 9rem;
   text-align: center;
 }
 .pagina_03 {
@@ -322,4 +323,15 @@ body {
 }
 .barra_c_01 {
   margin-left: 3px;
+}
+.sessao_01 {
+  background-color: #141827;
+  display: block;
+  padding-left: 36rem;
+  padding-bottom: 1rem;
+}
+.sessao_01 img {
+  width: 1rem;
+  height: 1rem;
+  padding-left: 1rem;
 }
