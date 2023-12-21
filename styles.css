@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #ecf8d4;
 }
 .inicio-01 {
   height: 31rem;
@@ -52,11 +53,12 @@ body {
 }
 .topo_02_text h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-weight: bold;
   font-size: 30px;
+  font-weight: 900;
+  font-weight: bolder;
   padding-right: 5rem;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 .topo_02_text p {
   font-family: "Roboto", sans-serif;
@@ -70,8 +72,7 @@ body {
   text-transform: uppercase;
   font-size: 10px;
   color: #ffffff;
-  text-decoration: none;
-  border: 2px solid #b22222;
+  border: 0;
   border-radius: 17px;
   background-color: #b22222;
   width: 8rem;
@@ -98,6 +99,8 @@ body {
 .meio_01 p {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  color: #2a2c31;
+  font-weight: 500;
   margin-left: 12rem;
   margin-right: 10rem;
   padding-top: 0.5rem;
@@ -113,10 +116,29 @@ body {
 .meio_01 li {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  font-weight: 500;
+  color: #2a2c31;
   padding-top: 0.5rem;
   margin-left: 20rem;
   margin-right: 10rem;
 }
+.meio_icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.meio_icons p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #808080;
+}
+.icons_01 img {
+  width: 2rem;
+  height: 2rem;
+}
+
 .meio_02 {
   margin-top: 3rem;
   padding: 2rem;
@@ -146,6 +168,7 @@ body {
   margin-left: 25rem;
   margin-top: -2rem;
   margin-right: 25rem;
+  margin-bottom: 3rem;
   font-family: "Roboto", sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -190,6 +213,9 @@ body {
   width: 0.5rem;
   height: 0.5rem;
 }
+.formulario_01 span {
+  color: #b22222;
+}
 .formulario_01 button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -197,7 +223,7 @@ body {
   font-size: 10px;
   color: #ffffff;
   text-decoration: none;
-  border: 1px solid #b22222;
+  border: 0;
   border-radius: 17px;
   background-color: #b22222;
   width: 5.5rem;
@@ -212,14 +238,16 @@ body {
   display: flex;
   background-color: #141827;
   font-family: "Roboto", sans-serif;
-  padding-left: 16rem;
+  padding-left: 18rem;
+  padding-right: 13.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .body_01 h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 500;
+  font-weight: bolder;
   color: #ffffff;
 }
 .body_01 a {
@@ -230,7 +258,6 @@ body {
   color: #d8d8d8;
 }
 .body_a {
-  padding-left: 1rem;
   padding-right: 1rem;
 }
 .body_b {
@@ -249,6 +276,16 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.body_e a img {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.body_e section {
+  margin-top: 5rem;
+}
 .barra_01 {
   display: flex;
   background-color: #141827;
@@ -263,10 +300,8 @@ body {
   font-size: 8px;
   font-weight: 400;
   color: #d8d8d8;
-  margin-left: 17rem;
-  margin-right: 12rem;
-}
-.barra_a img {
+  margin-left: 18rem;
+  margin-right: 8.5rem;
 }
 .barra_b {
   font-family: "Roboto", sans-serif;
@@ -274,7 +309,7 @@ body {
   font-size: 9px;
   font-weight: 600;
   color: #d8d8d8;
-  margin-right: 10rem;
+  margin-right: 9rem;
   text-align: center;
 }
 .pagina_03 {
@@ -300,4 +335,15 @@ body {
 }
 .barra_c_01 {
   margin-left: 3px;
+}
+.sessao_01 {
+  background-color: #141827;
+  display: block;
+  padding-left: 36rem;
+  padding-bottom: 1rem;
+}
+.sessao_01 img {
+  width: 1rem;
+  height: 1rem;
+  padding-left: 1rem;
 }
