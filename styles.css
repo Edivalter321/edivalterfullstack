@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #ecf8d4;
 }
 .inicio-01 {
   height: 31rem;
@@ -70,8 +71,7 @@ body {
   text-transform: uppercase;
   font-size: 10px;
   color: #ffffff;
-  text-decoration: none;
-  border: 2px solid #b22222;
+  border: 0;
   border-radius: 17px;
   background-color: #b22222;
   width: 8rem;
@@ -98,6 +98,8 @@ body {
 .meio_01 p {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  color: #2a2c31;
+  font-weight: 500;
   margin-left: 12rem;
   margin-right: 10rem;
   padding-top: 0.5rem;
@@ -113,9 +115,17 @@ body {
 .meio_01 li {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  font-weight: 500;
+  color: #2a2c31;
   padding-top: 0.5rem;
   margin-left: 20rem;
   margin-right: 10rem;
+}
+.meio_01 .paragrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #808080;
 }
 .meio_02 {
   margin-top: 3rem;
@@ -146,6 +156,7 @@ body {
   margin-left: 25rem;
   margin-top: -2rem;
   margin-right: 25rem;
+  margin-bottom: 3rem;
   font-family: "Roboto", sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -197,7 +208,7 @@ body {
   font-size: 10px;
   color: #ffffff;
   text-decoration: none;
-  border: 1px solid #b22222;
+  border: 0;
   border-radius: 17px;
   background-color: #b22222;
   width: 5.5rem;
