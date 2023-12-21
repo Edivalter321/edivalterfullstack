@@ -173,7 +173,7 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
-  border-top: 6px solid #1f52c5;
+  border-top: 4px solid #1f52c5;
 }
 .formulario_01 {
   display: block;
@@ -309,7 +309,7 @@ body {
   font-size: 9px;
   font-weight: 600;
   color: #d8d8d8;
-  margin-right: 9rem;
+  margin-right: 8.5rem;
   text-align: center;
 }
 .pagina_03 {
@@ -339,11 +339,19 @@ body {
 .sessao_01 {
   background-color: #141827;
   display: block;
-  padding-left: 36rem;
+  padding-left: 17.5rem;
   padding-bottom: 1rem;
 }
 .sessao_01 img {
   width: 1rem;
   height: 1rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
+}
+.sessao_01 .linha_01 {
+  width: 18.5rem;
+  height: 1px;
+}
+.sessao_01 .linha_02 {
+  width: 19rem;
+  height: 1px;
 }
