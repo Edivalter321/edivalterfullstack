@@ -121,12 +121,23 @@ body {
   margin-left: 20rem;
   margin-right: 10rem;
 }
-.meio_01 .paragrafo {
+.meio_icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.meio_icons p {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #808080;
 }
+.icons_01 img {
+  width: 2rem;
+  height: 2rem;
+}
+
 .meio_02 {
   margin-top: 3rem;
   padding: 2rem;
